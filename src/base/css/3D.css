@@ -1,0 +1,30 @@
+.Screen__bac {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+	z-index: -1;
+
+    perspective: 1000px;
+}
+
+.bac__layers {
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.layers__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover 101%;
+    background-position: center;
+    transform: rotateX(var(--moveY)) rotateY(var(--moveX));
+}
+
+.item_1 {
+    background-image: url("../assets/img/3D/bac.jpg");
+}
