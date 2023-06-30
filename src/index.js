@@ -5,6 +5,7 @@ import ReactDOMClient from 'react-dom/client';
 import ScreenOne from './base/js/screen1';
 import ScreenTwo from './base/js/screen2';
 import ScreenThree from './base/js/screen3';
+import ScreenFour from './base/js/screen4';
 //CSS
 import './index.css';
 import "./base/css/3D.css"
@@ -20,4 +21,5 @@ app.render(<div>
   <ScreenOne />
   <ScreenTwo />
   <ScreenThree />
+  <ScreenFour />
 </div>)
