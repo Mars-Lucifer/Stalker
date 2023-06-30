@@ -1,0 +1,19 @@
+.text__a_big {
+    font-size: calc(var(--index) * 1.6);
+    font-weight: 500;
+    color: white;
+    width: 100%;
+
+    margin: 0px;
+    margin-top: 10vh;
+}
+
+.text__a_small {
+    font-size: calc(var(--index) * 0.6);
+    font-weight: 300;
+    color: white;
+    opacity: 0.8;
+    width: 70%;
+
+    margin: 0px;
+}

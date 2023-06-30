@@ -13,9 +13,4 @@
 body {
   background: linear-gradient(#1A1A1A, #000000);
   font-family: 'IBM Plex Sans', sans-serif;
-  pointer-events: none;
-}
-
-body p, a {
-  pointer-events: all;
 }

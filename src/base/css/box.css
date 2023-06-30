@@ -1,7 +1,19 @@
 .Screen {
     position: relative;
-    height: 100vh;
+    min-height: 60vh;
     width: 100%;
+    z-index: 1;
 }
 
-.container h3 {z-index: 1;}
+.img {
+    width: 100%;
+    min-height: 20vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border: 1.2px rgba(255, 255, 255, 0.4) solid;
+}
+
+.img1 {background-image: url("../assets/img/i1.jpg"); margin-top: 10vh;}
+.img2 {background-image: url("../assets/img/i2.jpg"); margin-bottom: 16vh; margin-top: 10vh;}
