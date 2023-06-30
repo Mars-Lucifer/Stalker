@@ -1,6 +1,6 @@
 .Screen {
     position: relative;
-    min-height: 60vh;
+    min-height: 70vh;
     width: 100%;
     z-index: 1;
 }

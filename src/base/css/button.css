@@ -3,9 +3,15 @@
     height: 0.6px;
     background-color: white;
     opacity: 0.6;
+    margin: 0px;
 }
 
 .line_one {
     width: 70%;
     margin-top: 6vh;
+}
+
+.line_two {
+    width: 0.6px;
+    height: 100%;
 }

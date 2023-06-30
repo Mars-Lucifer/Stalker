@@ -17,3 +17,15 @@
 
     margin: 0px;
 }
+
+
+.text__box_s2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 16vh;
+}
+
+.text__box_s2 .text__a_small {width: 80%;}
+
+.text__marning_one {margin-bottom: 1.2vh;}
