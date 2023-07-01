@@ -79,6 +79,7 @@
 }
 
 .link__main {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .15);
     background-color: rgba(0, 0, 0, .4);
     border-radius: 6px;
     font-size: calc( var(--index) * 0.8);
@@ -92,6 +93,6 @@
     z-index: 1;
 }
 .link__main:hover {
-    letter-spacing: calc( var(--index) * 0.4);
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .6);
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, .2);
 }

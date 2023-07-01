@@ -15,3 +15,40 @@
     width: 0.6px;
     height: 100%;
 }
+
+.line_three {
+    margin-bottom: 6vh;
+}
+
+.line_four {
+    width: 0.6px;
+    height: calc(var(--index) * 1.5);
+    opacity: 0.4;
+}
+
+.button__link_a {
+    position: relative;
+    border-radius: 6px;
+    padding: calc(var(--index) * 0.22) calc(var(--index) * 0.5);
+    background-color: rgba(255, 255, 255, 0.0);
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: calc(var(--index) * 0.54);
+    transition-duration: 350ms;
+}
+.button__link_a::before {
+    content: "";
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 400ms;
+    z-index: -1;
+}
+.button__link_a:hover::before {
+    width: 100%;
+}

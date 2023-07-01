@@ -5,6 +5,14 @@
     z-index: 1;
 }
 
+.Footer {
+    min-height: 16vh;
+    border-top: 0.6px rgba(255, 255, 255, 0.4) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img {
     width: 100%;
     min-height: 20vh;
@@ -19,3 +27,12 @@
 .img1 {background-image: url("../assets/img/i1.jpg");}
 .img2 {background-image: url("../assets/img/i2.jpg"); margin-bottom: 16vh;}
 .img3 {background-image: url("../assets/img/i3.jpg"); margin-bottom: 16vh; height: 58vh;}
+
+.box__link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 12vh;
+}

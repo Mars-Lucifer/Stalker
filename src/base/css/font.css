@@ -18,6 +18,31 @@
     margin: 0px;
 }
 
+.text__footer {
+    font-size: calc(var(--index) * 0.65);
+    text-decoration: none;
+    position: relative;
+    padding-bottom: calc(var(--index) * 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: 300;
+    transition-duration: 350ms;
+}
+.text__footer::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0.6px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition-duration: 350ms;
+    z-index: -1;
+}
+.text__footer:hover::before {
+    width: 100%;
+}
+
 
 .text__box_s2 {
     display: flex;

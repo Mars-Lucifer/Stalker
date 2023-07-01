@@ -6,6 +6,8 @@ import ScreenOne from './base/js/screen1';
 import ScreenTwo from './base/js/screen2';
 import ScreenThree from './base/js/screen3';
 import ScreenFour from './base/js/screen4';
+import ScreenFive from './base/js/screen5';
+import ScreenSix from './base/js/screen6';
 //CSS
 import './index.css';
 import "./base/css/3D.css"
@@ -22,4 +24,6 @@ app.render(<div>
   <ScreenTwo />
   <ScreenThree />
   <ScreenFour />
+  <ScreenFive />
+  <ScreenSix />
 </div>)
