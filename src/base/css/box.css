@@ -36,3 +36,22 @@
 
     margin-top: 12vh;
 }
+
+@media (max-width: 992px) {
+    .Screen {
+        min-height: 50vh;
+    }
+    .Footer {
+        min-height: 16vh;
+    }
+    .img {
+        margin-top: 4vh;
+    }
+    .text__box_s2 {
+        margin-bottom: 6vh;
+    }
+    .img3 {
+        height: 28vh;
+        width: 60%;
+    }
+}

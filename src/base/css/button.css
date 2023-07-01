@@ -52,3 +52,10 @@
 .button__link_a:hover::before {
     width: 100%;
 }
+
+@media (max-width: 992px) {
+    .line_two {
+        height: 0.6px;
+        width: 70%;
+    }
+}

@@ -54,3 +54,11 @@
 .text__box_s2 .text__a_small {width: 80%;}
 
 .text__marning_one {margin-bottom: 1.2vh;}
+
+@media (max-width: 992px) {
+    .text__box_s2 {
+        flex-direction: column;
+        gap: 2vh;
+        margin-bottom: 6vh;
+    }
+}
