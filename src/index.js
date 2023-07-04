@@ -1,6 +1,7 @@
 //Sistem
 import React from 'react';
 import ReactDOMClient from 'react-dom/client';
+import { Analytics } from '@vercel/analytics/react';
 //My Page
 import ScreenOne from './base/js/screen1';
 import ScreenTwo from './base/js/screen2';
@@ -26,4 +27,6 @@ app.render(<div>
   <ScreenFour />
   <ScreenFive />
   <ScreenSix />
+
+  <Analytics/>
 </div>)
