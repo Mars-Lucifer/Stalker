@@ -13,15 +13,15 @@ class ScreenFive extends React.Component {
                         </div>
                         <div className='col-lg-5'>
                             <div className='box__link'>
-                                <a href="https://discord.gg/" className='button__link_a'>discord</a>
+                                <a href="https://stalker-dusky.vercel.app/" className='button__link_a'>discord</a>
                                 <hr className='line line_four'/>
-                                <a href="https://discord.gg/" className='button__link_a'>telegram</a>
+                                <a href="https://stalker-dusky.vercel.app/" className='button__link_a'>telegram</a>
                                 <hr className='line line_four'/>
-                                <a href="https://discord.gg/" className='button__link_a'>vk</a>
+                                <a href="https://stalker-dusky.vercel.app/" className='button__link_a'>vk</a>
                                 <hr className='line line_four'/>
-                                <a href="https://discord.gg/" className='button__link_a'>tiktok</a>
+                                <a href="https://stalker-dusky.vercel.app/" className='button__link_a'>tiktok</a>
                                 <hr className='line line_four'/>
-                                <a href="https://discord.gg/" className='button__link_a'>youtube</a>
+                                <a href="https://stalker-dusky.vercel.app/" className='button__link_a'>youtube</a>
                             </div>
                         </div>
                     </div>
