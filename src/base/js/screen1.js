@@ -23,7 +23,7 @@ const ScreenOne = () => {
                             <p className='text__main_big'>Welcome to the zone, stalker</p>
                             <p className='text__main_small'>    -Listen, stalker, here we have the site of our Main server. Come visit us and you will find many interesting things. We've already done some stuff here, trust me. You can check us out if you're not afraid of the Zone.</p>
                         </div>
-                        <a className='link__main' target="blank" href='https://discord.gg/zWfsf2caPj'>server</a>
+                        <a className='link__main' target="blank" href='https://discord.gg/rPNAmVWVFj'>server</a>
                     </div>
                 </div>
             </div>
